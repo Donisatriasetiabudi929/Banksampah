@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #2C3333;
+}
+li, a{
+	font-family: "montserrat", sans-serif;
+	font-weight: 500px;
+	font-size: 16px;
+	color: #65647C;
+	text-decoration: none;
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 5%;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+    border-bottom: 1px solid #CBE4DE;
+}
+.logo{
+	cursor: pointer;
+	width: 80px;
+	margin-right: auto;
+}
+.nav_link{
+	list-style: none;
+    padding-right: 15px;
+}
+.nav_link li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+.nav_link li a{
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	color:#CBE4DE;
+}
+.nav_link li a:hover{
+	color: #4bb29f;
+}
+
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-family: Helvetica;
+}
+.container h1{
+    color: #0E8388;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.container .back a{
+    width: 100%;
+    text-align: center;
+}
+
+.container table{
+    width: 100%;
+    border-color: #CBE4DE;
+    border-collapse: collapse;
+}
+.container table th, td{
+    padding: 10px;
+}
+.container table th{
+    color: #0E8388;
+    border-bottom: 1px solid #CBE4DE;
+}
+.container table td{
+    color: #CBE4DE;
+    text-align: center;
+    border-bottom: 1px solid #CBE4DE;
+}
+.container table td a{
+    text-decoration: none;
+    color: #CBE4DE;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.container table td a:hover{
+    color: #0E8388;
+    transition: all 1s ease;
+}

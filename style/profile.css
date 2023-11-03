@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #2C3333;
+        align-items: center;
+        justify-content: center;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px;
+    }
+
+    .box{
+        flex: 30%;
+        display: table;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        background-color: #2E4F4F;
+        color: #CBE4DE;
+        padding: 30px 30px;
+        border-radius: 20px;
+    }
+
+    .box img{
+        border-radius: 50%;
+        border: 2px solid #fff;
+        height: 250px;
+        width: 250px;
+    }
+
+    .box ul{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .box ul li{
+        list-style: none;
+        margin-top: 30px;
+        font-weight: 100;
+    }
+
+    .box ul li a{
+        text-decoration: none;
+        color: #CBE4DE;
+        transition: all 1s ease;
+        font-size: 25px;
+    }
+    .box ul li a:hover{
+        color: #2C3333;
+        transition: all 1s ease;
+    }
+
+    .About{
+        margin-left: 20px;
+        flex: 50%;
+        display: table;
+        padding: 30px 30px;
+        font-size: 20px;
+        background-color: #CBE4DE;
+        color: #2E4F4F;
+        border-radius: 20px;
+    }
+
+    .About h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .About ul li{
+        list-style: none;
+    }
+
+    .About ul{
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 1068px) {
+        .container{
+            display: table;
+        }
+
+        .box{
+            width: 100%;
+        }
+
+        .About{
+            width: 100%;
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        .About h1{
+            text-align: center;
+        }
+    }
+
+/* TABLE */
+
+.aktivitas h2{
+    color: #0E8388;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    color: #CBE4DE;
+    margin-bottom: 8%;
+}
+table tr th, td{
+    padding: 8px;
+    text-align: center;
+}

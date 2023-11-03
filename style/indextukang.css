@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2C3333;
+    font-family: Helvetica;
+}
+.logo{
+    width: 10%;
+    padding: 15px 0;
+    display: block;
+    margin: auto;
+}
+.logout{
+    display: block;
+    margin: auto;
+    width: 5%;
+    text-decoration: none;
+    color: #CBE4DE;
+    font-weight: bold;
+    transition: all 1s ease;
+    padding: 5px 0 15px 0;
+}
+.logout:hover{
+    transition: all 1s ease;
+    color: #0E8388;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+hr {
+    border-color: #0E8388;
+    height: 10px;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.one li {
+    display: inline-block;
+}
+.one li h1 {
+    font-size: 50px;
+}
+.one .satu{
+    color: #0E8388;
+}
+.one .dua {
+    color: #CBE4DE;
+    margin-left: 20px;
+}
+.two li{
+    display: inline-block;
+}
+.two h1{
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, #CBE4DE 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.event-container {
+	font-family: Helvetica;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.event-left img{
+	width: 100px;
+}
+a{
+    text-decoration: none;
+	color: #CBE4DE;
+}
+
+.event-container .event {
+	box-shadow: 0px 5px 25px -8px rgba(115, 255, 194, 0.4);
+	display: flex;
+	border-radius: 8px;
+	margin: 32px 0;
+	background: #CBE4DE;
+}
+
+.event .event-left {
+	background: #2E4F4F;
+	min-width: 82px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2E4F4F;
+	padding: 8px 48px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+	font-size: 56px;
+}
+
+.event .event-left .month {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.event .event-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+	font-size: 24px;
+	margin: 24px 0 10px 0;
+	color: #2E4F4F;
+	text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+	background: #2E4F4F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	padding: 8px;
+	border-radius: 16px;
+	margin: 24px 0;
+	font-size: 14px;
+	text-align: left;
+	transition: all 1s ease;
+}
+
+.event .event-right .event-timing ion-icon {
+	font-size: 20px;
+	color: #CBE4DE;
+}
+
+.event-timing:hover, .event-timing:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.5em);
+    background-color: rgb(77, 77, 77);
+    transition: all 1s ease;
+    -webkit-transform: translateY(-0.5em);
+    -moz-transform: translateY(-0.5em);
+    -ms-transform: translateY(-0.5em);
+    -o-transform: translateY(-0.5em);
+}
+
+.event .event-right .event-timing p{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #CBE4DE;
+	font-weight: bold;
+}
+
+@media (max-width: 550px) {
+	.event {
+		flex-direction: column;
+		margin-top: -40%;
+	}
+
+	.event .event-left {
+		padding: 0;
+		border-radius: 8px 8px 0 0;
+	}
+
+	.event .event-left .event-date .date,
+	.event .event-left .event-date .month {
+		display: inline-block;
+		font-size: 24px;
+	}
+
+	.event .event-left .event-date {
+		padding: 10px 0;
+	}
+}
+
+.ambil a{
+	text-align: center;
+	width: 100%;
+}
+.ambil {
+	width: 28%;
+	border-radius: 10px;
+	margin: auto;
+	padding: 10px 0;
+	border: 1px solid #CBE4DE;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	transition: all 1s ease;
+}
+.ambil:hover, .ambil:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.5em);
+    background-color: rgb(29, 29, 29);
+    transition: all 1s ease;
+    -webkit-transform: translateY(-0.5em);
+    -moz-transform: translateY(-0.5em);
+    -ms-transform: translateY(-0.5em);
+    -o-transform: translateY(-0.5em);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}

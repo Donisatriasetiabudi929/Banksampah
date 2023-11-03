@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #2C3333;
+}
+li, a{
+	font-family: "montserrat", sans-serif;
+	font-weight: 500px;
+	font-size: 16px;
+	color: #65647C;
+	text-decoration: none;
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 5%;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+    border-bottom: 1px solid #CBE4DE;
+}
+.logo{
+	cursor: pointer;
+	width: 80px;
+	margin-right: auto;
+}
+.nav_link{
+	list-style: none;
+    padding-right: 15px;
+}
+.nav_link li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+.nav_link li a{
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	color:#CBE4DE;
+}
+.nav_link li a:hover{
+	color: #4bb29f;
+}
+
+/* KONTEN TABLE */
+h1{
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 5%;
+    color: #CBE4DE;
+}
+.search{
+    width: 33%;
+    margin: auto;
+    margin-top: 5%;
+    font-family: Helvetica;
+    color: #CBE4DE;
+}
+.search .text{
+    background: #00000000;
+    border: none;
+    border-bottom: 1px solid #CBE4DE;
+    padding: 5px;
+    color: #CBE4DE;
+}
+.search button {
+    padding: 7px 40px;
+    background: #00000000;
+    border: 1px solid #CBE4DE;
+    color: #CBE4DE;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+table {
+    width: 70%;
+    margin: auto;
+    font-family: Helvetica;
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+table tr th{
+    text-align: center;
+    padding: 10px;
+    color: #CBE4DE;
+}
+table tr td{
+    text-align: center;
+    padding: 10px;
+    color: #CBE4DE;
+}
+table tr td img{
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+table tr td a{
+    color: #CBE4DE;
+    transition: all 0.8s ease 0s;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+}
+table tr td a:hover{
+    transition: all 0.8s ease 0s;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    color: #4bb29f;
+}
+
+@media (max-width:420px){
+    table{
+        width: 80%;
+    }
+}

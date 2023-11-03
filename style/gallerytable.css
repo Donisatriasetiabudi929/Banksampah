@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #2C3333;
+}
+.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.container h1{
+    color: #0E8388;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.container .back a{
+    width: 100%;
+    text-align: center;
+}
+
+.container table{
+    width: 100%;
+    border-color: #CBE4DE;
+    border-collapse: collapse;
+}
+.container table th, td{
+    padding: 8px;
+}
+.container table th{
+    color: #0E8388;
+}
+.container table td{
+    color: #CBE4DE;
+    text-align: center;
+}
+.container table td a{
+    text-decoration: none;
+    color: #CBE4DE;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.container table td img{
+    width: 50%;
+}
+.container table td a:hover{
+    color: #0E8388;
+    transition: all 1s ease;
+}
+.back {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.back a{
+    color: #CBE4DE;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 1s ease;
+    font-weight: bold;
+}
+.back a:hover{
+    color: #0E8388;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.tambah a ion-icon{
+    color: #CBE4DE;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 2%;
+    transition: all 1s ease;
+}
+.tambah a ion-icon:hover{
+    color: #0E8388;
+    font-weight: bold;
+    transition: all 1s ease;
+}

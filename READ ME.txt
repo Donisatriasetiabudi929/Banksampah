@@ -1,0 +1,53 @@
+Aplikasi Website Bank Sampah Indonesia
+
+-----------------------------------------------
+
+Collor pallete
+#2C3333
+#2E4F4F
+#0E8388
+#CBE4DE
+
+----------------------------------------------------------------------------------------------
+
+Sebelum menggunakan aplikasi mohon import database banksampah.sql ke phpmyadmin terlebih dahulu
+jangan lupa untuk nama database nya adalah "banksampah"
+
+----------------------------------------------------------------------------------------------
+
+untuk username dan password akun
+
+Admin
+Username = admin1@gmail.com
+Password = admin1
+-----------------------------------
+
+Dustman / Tukang pengangkut sampah
+1. Username = dustman1@gmail.com
+   Password = dustman1
+
+2. Username = dustman2@gmail.com
+   Password = dustman2
+
+-----------------------------------
+
+Customer/tamu
+1. Username = test@gmail.com
+   Password = 123
+
+2. Username = doni@gmail.com
+   Password = doni
+
+-----------------------------------
+
+Untuk Lokasi gambar dan media-media lain ada di folder "assets"
+
+Untuk lokasi style web ada di folder "style"
+
+Untuk lokasi proses login dan register ada di folder "reglog"
+
+Untuk lokasi halaman admin ada di folder "admin"
+
+Untuk lokasi halaman tamu ada di folder "tamu"
+
+Untuk lokasi halaman dustman / pengangkut sampah ada di folder "tukang"
